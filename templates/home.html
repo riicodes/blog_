@@ -3,12 +3,9 @@
     <h2>Blogs</h2>
     <hr>
     {% for post in all_posts %}
-        <div>
-            <h3><a href="{% url 'detail' post.pk  %}">{{ post.title }}</a></h3>
-            <small>{{ post.author }}</small>
+        <div class="post">
+            <h3><a href="{% url 'detail' post.pk  %}">{{ post.title }}</a> | {{ post.author }}</h3>
             <p>{{ post.body }}</p>
-            <br>
-            <br>
         </div>
     {% endfor %}
 {% endblock content %}

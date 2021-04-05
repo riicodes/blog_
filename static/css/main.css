@@ -1,8 +1,12 @@
-body{
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+body {
+    font-family: 'Baloo 2', cursive;
+    padding: 0;
+    margin: 0;
 }
 
-main{
+main {
     max-width: 1000px;
     margin: auto;
 }
@@ -10,12 +14,25 @@ main{
 header {
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #06244d;
+    color: #fff;
 }
 
-header div a{
+a {
     text-decoration: none;
-    padding: 25px;
+    color: inherit;
 }
 
-.nav-right{
+h4 a {
+    padding: 20px;
+    color: white;
+}
+
+.post {
+    border: 1px solid #b5b5b5;
+    box-shadow: 1px 1px 1px 1px #fcf4f4;
+    padding: 5px 20px;
+    margin-bottom: 5px;
 }
