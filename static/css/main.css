@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div a{
+    text-decoration: none;
+    padding: 25px;
+}
+
+.nav-right{
+}
